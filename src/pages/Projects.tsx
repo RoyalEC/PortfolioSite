@@ -2,7 +2,8 @@ import React from 'react';
 
 function Projects() {
   return (
-    <div className="min-h-screen w-full bg-white p-6 text-gray-800">
+    <div className="bg-gray-100 dark:bg-gray-800 text-black dark:text-white shadow p-4">
+
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-bold text-center mb-10 border-b-4 border-blue-500 w-fit mx-auto">
           Projects
@@ -62,6 +63,41 @@ function Projects() {
     </a>
   </div>
 </div>
+
+<div className="bg-gray-100 p-4 rounded shadow">
+  <h2 className="text-xl font-semibold mb-2">Developer Portfolio Website</h2>
+  <p className="text-sm text-gray-700 mb-2">
+    Designed and built this responsive developer portfolio from scratch using React, Tailwind CSS, and Vite. Includes dark mode, project carousel, downloadable resume, and clean navigation. The app serves as a central hub for showcasing my full-stack development skills and project work.
+  </p>
+  <div className="flex gap-2 text-sm text-white flex-wrap">
+    <span className="bg-blue-600 px-2 py-1 rounded">React</span>
+    <span className="bg-indigo-600 px-2 py-1 rounded">Tailwind CSS</span>
+    <span className="bg-green-600 px-2 py-1 rounded">TypeScript</span>
+    <span className="bg-yellow-500 px-2 py-1 rounded">Responsive Design</span>
+    <span className="bg-gray-700 px-2 py-1 rounded">Vite</span>
+  </div>
+  <div className="mt-4 flex gap-4">
+    <a
+      href="https://your-deployed-portfolio-link.com"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <button className="bg-blue-600 text-white px-4 py-2 rounded">
+        View Live Site
+      </button>
+    </a>
+    <a
+      href="https://github.com/RoyalEC/portfoliosite"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <button className="bg-gray-800 text-white px-4 py-2 rounded">
+        View GitHub Repo
+      </button>
+    </a>
+  </div>
+</div>
+
 
 
           {/* Project Cards will go here */}

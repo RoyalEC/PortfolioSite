@@ -10,7 +10,8 @@ function Skills() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-gray-800 font-sans p-6">
+    <div className="bg-gray-100 dark:bg-gray-800 text-black dark:text-white shadow p-4">
+
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-6 text-center border-b-4 border-blue-500 w-fit mx-auto">Skills</h1>
 

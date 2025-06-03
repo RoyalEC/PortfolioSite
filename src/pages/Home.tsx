@@ -3,7 +3,8 @@ import ProjectCarousel from '../components/ProjectsCarousel';
 
 function Home() {
   return (
-    <div className="min-h-screen w-full bg-white text-gray-800 font-sans p-6">
+    <div className="bg-gray-100 dark:bg-gray-800 text-black dark:text-white shadow p-4">
+
       <h1 className="text-5xl font-extrabold text-gray-900 mb-6 border-b-4 border-blue-500 mx-auto w-fit">
   Portfolio
 </h1>

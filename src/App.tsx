@@ -1,25 +1,25 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { ThemeContext } from './context/ThemeContext';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
+import Contact from './pages/Contact';
+import Navbar from './components/Navbar';
+import Resume from './pages/Resume';
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen w-screen bg-white overflow-x-hidden">
-        <nav className="bg-white shadow px-6 py-4 flex justify-between items-center">
-          <h1 className="text-xl font-bold">My Portfolio</h1>
-          <div className="space-x-4">
-            <Link to="/" className="text-blue-600 hover:underline">Home</Link>
-            <Link to="/projects" className="text-blue-600 hover:underline">Projects</Link>
-            <Link to="/skills" className="text-blue-600 hover:underline">Skills</Link>
-          </div>
-        </nav>
+      <div className="min-h-screen w-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 overflow-x-hidden">
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </div>
     </Router>
