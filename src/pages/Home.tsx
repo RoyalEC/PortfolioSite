@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectCarousel from '../components/ProjectsCarousel';
 
 function Home() {
   return (
@@ -29,6 +30,8 @@ function Home() {
             <button className="bg-blue-700 text-white px-4 py-2 rounded">LinkedIn</button>
           </a>
         </div>
+
+         <ProjectCarousel />
 
         <h2 className="text-2xl font-semibold mt-10 mb-4">Professional Experience</h2>
 
