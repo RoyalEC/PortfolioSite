@@ -4,6 +4,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const projects = [
+ {
+    title: 'This Is It! BBQ Website',
+    description: 'Live website built for a multi-million dollar restaurant chain. Includes multi-page layout, responsive design, and long-term client usage.',
+    link: 'https://www.thisisitbbq.com/',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Responsive Design', 'Enterprise Client'],
+  },
   {
     title: 'WGUPS Routing Program',
     description: 'Optimized package delivery routes using a greedy algorithm.',

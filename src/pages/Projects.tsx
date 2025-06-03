@@ -12,6 +12,8 @@ function Projects() {
           Here are some of the projects I've worked on, including school work, personal apps, and tools I've built.
         </p>
 
+        
+
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {/* Project Cards will go here */}
           <div className="bg-gray-100 p-4 rounded shadow">
@@ -35,6 +37,32 @@ function Projects() {
     </a>
   </div>
 </div>
+
+<div className="bg-gray-100 p-4 rounded shadow">
+  <h2 className="text-xl font-semibold mb-2">This Is It! BBQ Website</h2>
+  <p className="text-sm text-gray-700 mb-2">
+    Designed and developed the official website for <strong>This Is It! BBQ</strong>, a multi-million dollar Southern restaurant chain. The site includes a multi-page layout, responsive design, and engaging content to promote brand identity and drive customer engagement. While no longer an active client, the company continues to use the live website I built.
+  </p>
+  <div className="flex gap-2 text-sm text-white flex-wrap">
+    <span className="bg-blue-500 px-2 py-1 rounded">HTML</span>
+    <span className="bg-green-600 px-2 py-1 rounded">CSS</span>
+    <span className="bg-yellow-500 px-2 py-1 rounded">JavaScript</span>
+    <span className="bg-indigo-600 px-2 py-1 rounded">Responsive Design</span>
+    <span className="bg-gray-700 px-2 py-1 rounded">Enterprise Client</span>
+  </div>
+  <div className="mt-4">
+    <a
+      href="https://www.thisisitbbq.com/"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <button className="bg-blue-600 text-white px-4 py-2 rounded">
+        Visit Live Website
+      </button>
+    </a>
+  </div>
+</div>
+
 
           {/* Project Cards will go here */}
           <div className="bg-gray-100 p-4 rounded shadow">
@@ -249,6 +277,55 @@ function Projects() {
     </a>
   </div>
 </div>
+
+<div className="bg-gray-100 p-4 rounded shadow">
+  <h2 className="text-xl font-semibold mb-2">Practice Project</h2>
+  <p className="text-sm text-gray-700 mb-2">
+    A sandbox-style practice project used for testing concepts and prototyping ideas across languages and tools. Useful for experimentation, quick learning, and technique validation.
+  </p>
+  <div className="flex gap-2 text-sm text-white flex-wrap">
+    <span className="bg-gray-600 px-2 py-1 rounded">JavaScript</span>
+    <span className="bg-blue-500 px-2 py-1 rounded">HTML</span>
+    <span className="bg-green-500 px-2 py-1 rounded">Learning</span>
+    <span className="bg-indigo-500 px-2 py-1 rounded">Practice</span>
+  </div>
+  <div className="mt-4">
+    <a
+      href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=drive_link"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <button className="bg-blue-600 text-white px-4 py-2 rounded">
+        View Source Code
+      </button>
+    </a>
+  </div>
+</div>
+<div className="bg-gray-100 p-4 rounded shadow">
+  <h2 className="text-xl font-semibold mb-2">Small Business Website</h2>
+  <p className="text-sm text-gray-700 mb-2">
+    Developed a functional, multi-page website for a small business to promote products and engage potential customers. Implemented responsive design, accessibility features, and local storage to enhance user experience. Delivered both desktop layout and mobile adaptation plans.
+  </p>
+  <div className="flex gap-2 text-sm text-white flex-wrap">
+    <span className="bg-blue-500 px-2 py-1 rounded">HTML</span>
+    <span className="bg-green-500 px-2 py-1 rounded">CSS</span>
+    <span className="bg-yellow-500 px-2 py-1 rounded">JavaScript</span>
+    <span className="bg-indigo-500 px-2 py-1 rounded">Responsive Design</span>
+    <span className="bg-gray-700 px-2 py-1 rounded">Accessibility</span>
+  </div>
+  <div className="mt-4">
+    <a
+      href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=drive_link"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <button className="bg-blue-600 text-white px-4 py-2 rounded">
+        View Source Code
+      </button>
+    </a>
+  </div>
+</div>
+
 
           {/* Add more project cards as needed */}
         </div>

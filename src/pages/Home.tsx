@@ -116,7 +116,7 @@ function Home() {
 
             {/* Linux Essentials */}
             <div className="flex items-start gap-4 bg-white p-4 shadow rounded">
-              <img src="/certifications/linux-essentials.png" alt="Linux Essentials" className="w-12 h-12 object-contain" />
+              {/* <img src="/certifications/java-dev.png" alt="Java Dev" className="w-12 h-12 object-contain" />*/}
               <div>
                 <h3 className="font-semibold">Linux Essentials 010</h3>
                 <p className="text-sm text-gray-600">Issued by Linux Professional Institute</p>
@@ -125,7 +125,7 @@ function Home() {
 
             {/* Java Developer */}
             <div className="flex items-start gap-4 bg-white p-4 shadow rounded">
-              <img src="/certifications/java-dev.png" alt="Java Dev" className="w-12 h-12 object-contain" />
+              {/* <img src="/certifications/java-dev.png" alt="Java Dev" className="w-12 h-12 object-contain" />*/}
               <div>
                 <h3 className="font-semibold">Java Developer</h3>
                 <p className="text-sm text-gray-600">Issued by Western Governors University</p>
