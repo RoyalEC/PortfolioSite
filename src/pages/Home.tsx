@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ProjectCarousel from '../components/ProjectsCarousel';
 
 function Home() {
@@ -61,15 +61,27 @@ function Home() {
       <li>Used CLI tools for customization, version control, and efficient deployments.</li>
     </ul>
   </div>
+</div>
+
+<div className="mt-10 text-left">
+  <h2 className="text-2xl font-semibold mb-4">Education</h2>
+
+  {/* WGU */}
+  <div className="bg-white dark:bg-gray-700 p-4 shadow rounded mb-4">
+    <h3 className="text-lg font-bold">Western Governors University</h3>
+    <p className="text-sm text-gray-600 dark:text-gray-300">Bachelor of Science, Computer Science</p>
+    <p className="text-sm text-gray-500 dark:text-gray-400">Expected Graduation: June 2025</p>
+  </div>
 
   {/* PerScholas */}
-  <div>
-    <h3 className="text-lg font-bold">Software Engineer Trainee – PerScholas (Remote)</h3>
-    <p className="text-sm text-gray-500">Oct 2023 – Feb 2024</p>
-    <ul className="list-disc list-inside mt-2 text-gray-700 space-y-1">
-      <li>Strengthened front-end skills with React, HTML, CSS, JavaScript, and TypeScript.</li>
-      <li>Gained back-end experience with Node.js and Express.js in Agile/SCRUM environments.</li>
-      <li>Streamlined CI/CD pipelines for automated testing and deployment.</li>
+  <div className="bg-white dark:bg-gray-700 p-4 shadow rounded">
+    <h3 className="text-lg font-bold">PerScholas (Remote)</h3>
+    <p className="text-sm text-gray-600 dark:text-gray-300">Software Engineering Training Program</p>
+    <p className="text-sm text-gray-500 dark:text-gray-400">Oct 2023 – Feb 2024</p>
+    <ul className="list-disc list-inside mt-2 text-gray-700 dark:text-gray-200 space-y-1">
+      <li>Trained in front-end development with React, HTML, CSS, and JavaScript.</li>
+      <li>Covered backend development using Node.js and Express.</li>
+      <li>Followed Agile/SCRUM methodologies and CI/CD practices.</li>
     </ul>
   </div>
 </div>

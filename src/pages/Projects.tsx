@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 function Projects() {
   return (
@@ -114,34 +114,39 @@ function Projects() {
   </div>
   <div className="mt-4">
     <a
-      href="https://drive.google.com/file/d/15lcUs2whePnkswRQF3KnMZ4LlDQg4bqN/view?usp=drive_link"
+      href="https://replit.com/@crewsernie8/ShonenShowdown?v=1#.replit"
       target="_blank"
       rel="noreferrer"
     >
-      <button className="bg-blue-600 text-white px-4 py-2 rounded">View Source Code</button>
+      <button className="bg-blue-600 text-white px-4 py-2 rounded">View Project</button>
     </a>
   </div>
 </div>
 
           {/* Project Cards will go here */}
-          <div className="bg-gray-100 p-4 rounded shadow">
+       <div className="bg-gray-100 p-4 rounded shadow">
   <h2 className="text-xl font-semibold mb-2">Labyrinth Sprint</h2>
   <p className="text-sm text-gray-700 mb-2">
-    A multiplayer maze game built with React Native (Expo) for the frontend and a C++ backend. Uses WebSocket communication for real-time interactions and native components for performance optimization.
+    A grid-based maze game featuring single-player and local multiplayer modes against an AI opponent. The game is powered by a C++ backend and a React Native frontend communicating via WebSockets. Future plans include online multiplayer support.
   </p>
   <div className="flex gap-2 text-sm text-white flex-wrap">
     <span className="bg-yellow-500 px-2 py-1 rounded">React Native</span>
     <span className="bg-gray-700 px-2 py-1 rounded">C++</span>
     <span className="bg-green-600 px-2 py-1 rounded">WebSockets</span>
     <span className="bg-indigo-600 px-2 py-1 rounded">Expo</span>
-    <span className="bg-purple-600 px-2 py-1 rounded">Multiplayer</span>
+    <span className="bg-pink-600 px-2 py-1 rounded">AI Opponent</span>
   </div>
-  <div className="mt-4">
-    <a href="https://github.com/RoyalEC/LabyrinthSprint" target="_blank" rel="noreferrer">
-      <button className="bg-blue-600 text-white px-4 py-2 rounded">View Source Code</button>
+  <div className="mt-4 flex flex-col sm:flex-row sm:gap-4 gap-2">
+    <a href="https://github.com/RoyalEC/CompleteLabyrinthSprint" target="_blank" rel="noreferrer">
+      <button className="bg-blue-600 text-white px-4 py-2 rounded w-full sm:w-auto">View Source Code</button>
+    </a>
+    <a href="https://completelabyrinthsprint-1.onrender.com" target="_blank" rel="noreferrer">
+      <button className="bg-green-600 text-white px-4 py-2 rounded w-full sm:w-auto">View Live App</button>
     </a>
   </div>
 </div>
+
+
 
           {/* Project Cards will go here */}
           <div className="bg-gray-100 p-4 rounded shadow">
@@ -327,7 +332,7 @@ function Projects() {
   </div>
   <div className="mt-4">
     <a
-      href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=drive_link"
+      href="https://replit.com/@crewsernie8/EnhancedNumberGuessingGame"
       target="_blank"
       rel="noreferrer"
     >

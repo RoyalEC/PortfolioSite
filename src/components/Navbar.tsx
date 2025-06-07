@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <nav className="bg-white dark:bg-gray-800 shadow px-6 py-4 flex justify-between items-center">
-      <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Ernie Crews</h1>
+      <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Ernie Crews III</h1>
       <div className="space-x-4 text-lg">
         <Link to="/" className="text-blue-600 dark:text-blue-300 hover:underline">Home</Link>
         <Link to="/projects" className="text-blue-600 dark:text-blue-300 hover:underline">Projects</Link>

@@ -1,6 +1,3 @@
-import React from 'react';
-import { useContext } from 'react';
-import { ThemeContext } from './context/ThemeContext';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';

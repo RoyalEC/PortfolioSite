@@ -1,5 +1,4 @@
 // Contact.tsx
-import React from 'react';
 import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaBriefcase } from 'react-icons/fa';
 
 function Contact() {
