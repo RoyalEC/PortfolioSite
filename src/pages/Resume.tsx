@@ -1,28 +1,26 @@
-
-
 function Resume() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 p-6">
       <div className="max-w-4xl mx-auto text-center">
-        <h1 className="text-4xl font-bold mb-4 border-b-4 border-blue-500 inline-block">My Resume</h1>
+        <h1 className="text-4xl font-bold mb-4 border-b-4 border-blue-500 inline-block">
+          My Resume
+        </h1>
 
         <iframe
           src="/WGU-Resume.pdf"
           title="Resume"
-          className="w-full h-[800px] border rounded shadow-lg"
+          className="w-full h-[800px] border rounded shadow-lg mb-6"
         />
-      </div>
-        <div className="mb-6">
-          <a
-            href="/WGU-Resume.pdf"
-            download="WGU-Resume.pdf"
-            className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition"
-          >
-            Download Resume
-          </a>
-        </div>
-    </div>
 
+        <a
+          href="/WGU-Resume.pdf"
+          download="WGU-Resume.pdf"
+          className="bg-blue-600 text-white font-semibold px-6 py-2 rounded shadow-md hover:bg-blue-700 transition"
+        >
+          Download Resume
+        </a>
+      </div>
+    </div>
   );
 }
 
