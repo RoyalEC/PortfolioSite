@@ -12,11 +12,25 @@ function Navbar() {
         <div className="flex justify-between items-center">
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Ernie Crews III</h1>
           <button
-            className="sm:hidden text-gray-900 dark:text-white text-xl"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            ☰
-          </button>
+  className="sm:hidden p-2 rounded-md bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 text-black dark:text-white"
+  onClick={() => setIsOpen(!isOpen)}
+  aria-label="Toggle Menu"
+>
+  <svg
+    className="w-6 h-6"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth={2}
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M4 6h16M4 12h16M4 18h16"
+    />
+  </svg>
+</button>
         </div>
 
         <div className={`${isOpen ? 'flex' : 'hidden'} flex-col sm:flex sm:flex-row sm:space-x-6 mt-4 sm:mt-0`}>
@@ -27,7 +41,7 @@ function Navbar() {
           <Link to="/contact" className="text-blue-600 dark:text-blue-300 hover:underline mb-2 sm:mb-0">Contact</Link>
           <button
             onClick={toggleDarkMode}
-            className="mt-2 sm:mt-0 px-3 py-1 border rounded text-sm text-gray-700 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+            className="mt-2 sm:mt-0 px-3 py-1 border rounded text-sm text-white bg-gray-800 dark:bg-gray-100 dark:text-black hover:bg-gray-700 dark:hover:bg-gray-300 transition"
           >
             {darkMode ? 'Light Mode' : 'Dark Mode'}
           </button>
