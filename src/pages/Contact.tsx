@@ -34,7 +34,7 @@ function Contact() {
           </div>
           <div className="flex items-center gap-5 hover:scale-105 transition-transform duration-300">
             <FaBriefcase className="text-blue-600 text-3xl" />
-            <span>Portfolio: <a href="https://your-deployed-portfolio-link.com" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">your-deployed-portfolio-link.com</a></span>
+            <span>Portfolio: <a href="https://ernie-crews.com" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">ernie-crews.com</a></span>
           </div>
         </div>
       </div>
