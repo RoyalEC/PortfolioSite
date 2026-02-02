@@ -37,25 +37,35 @@ function Projects() {
 </div>
 
 <div className="bg-gray-100 p-4 rounded shadow">
-  <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">This Is It! BBQ Website</h2>
+  <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">Clutch Mobile App</h2>
   <p className="text-sm text-gray-700 mb-2">
-    Designed and developed the official website for <strong>This Is It! BBQ</strong>, a multi-million dollar Southern restaurant chain. The site includes a multi-page layout, responsive design, and engaging content to promote brand identity and drive customer engagement. While no longer an active client, the company continues to use the live website I built.
+    A cross-platform LFG app that helps gamers discover sessions, match with teammates, and coordinate fast with real-time presence. Built to reduce friction and get squads into games quickly.
   </p>
   <div className="flex gap-2 text-sm text-white flex-wrap">
-    <span className="bg-blue-500 px-2 py-1 rounded">HTML</span>
-    <span className="bg-green-600 px-2 py-1 rounded">CSS</span>
-    <span className="bg-yellow-500 px-2 py-1 rounded">JavaScript</span>
-    <span className="bg-indigo-600 px-2 py-1 rounded">Responsive Design</span>
-    <span className="bg-gray-700 px-2 py-1 rounded">Enterprise Client</span>
+    <span className="bg-blue-500 px-2 py-1 rounded">React Native</span>
+    <span className="bg-purple-600 px-2 py-1 rounded">Expo</span>
+    <span className="bg-emerald-600 px-2 py-1 rounded">Supabase</span>
+    <span className="bg-yellow-500 px-2 py-1 rounded">PostgreSQL</span>
+    <span className="bg-indigo-600 px-2 py-1 rounded">Realtime (WebSockets)</span>
+    <span className="bg-pink-600 px-2 py-1 rounded">Push Notifications</span>
   </div>
-  <div className="mt-4">
+  <div className="mt-4 flex flex-col sm:flex-row sm:gap-4 gap-2">
     <a
-      href="https://www.thisisitbbq.com/"
+      href="https://clutch-app.co"
       target="_blank"
       rel="noreferrer"
     >
-      <button className="bg-blue-600 text-white px-4 py-2 rounded">
-        Visit Live Website
+      <button className="bg-blue-600 text-white px-4 py-2 rounded w-full sm:w-auto">
+        Visit Website
+      </button>
+    </a>
+    <a
+      href="https://play.google.com/store/apps/details?id=com.erniec1.ClutchApp&hl=en_US"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <button className="bg-green-600 text-white px-4 py-2 rounded w-full sm:w-auto">
+        View On Google Play
       </button>
     </a>
   </div>

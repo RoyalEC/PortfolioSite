@@ -4,10 +4,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 const projects = [
  {
-    title: 'This Is It! BBQ Website',
-    description: 'Live website built for a multi-million dollar restaurant chain. Includes multi-page layout, responsive design, and long-term client usage.',
-    live: 'https://www.thisisitbbq.com/',
-    tags: ['HTML', 'CSS', 'JavaScript', 'Responsive Design', 'Enterprise Client'],
+    title: 'Clutch Mobile App',
+    description: 'Cross-platform LFG app that helps gamers discover sessions, match with teammates, and coordinate fast with real-time presence.',
+    live: 'https://clutch-app.co',
+    playStore: 'https://play.google.com/store/apps/details?id=com.erniec1.ClutchApp&hl=en_US',
+    appStore: 'https://apps.apple.com/app/idXXXXXXXXXX',
+    tags: ['React Native', 'Expo', 'Supabase', 'PostgreSQL', 'Realtime (WebSockets)', 'Push Notifications'],
   },
   {
   title: 'Labyrinth Sprint',
@@ -71,7 +73,21 @@ const ProjectCarousel = () => {
             {proj.live && (
               <a href={proj.live} target="_blank" rel="noreferrer">
                 <button className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">
-                  View Live App
+                  Visit Website
+                </button>
+              </a>
+            )}
+            {proj.playStore && (
+              <a href={proj.playStore} target="_blank" rel="noreferrer">
+                <button className="bg-emerald-600 text-white px-4 py-2 rounded hover:bg-emerald-700 transition">
+                  View On Google Play
+                </button>
+              </a>
+            )}
+            {proj.appStore && (
+              <a href={proj.appStore} target="_blank" rel="noreferrer">
+                <button className="bg-sky-600 text-white px-4 py-2 rounded hover:bg-sky-700 transition">
+                  View on App Store
                 </button>
               </a>
             )}

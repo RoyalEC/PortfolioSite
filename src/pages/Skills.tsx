@@ -4,16 +4,16 @@ function Skills() {
       "JavaScript", "Python", "Java", "TypeScript", "SQL", "C++", "HTML", "CSS"
     ],
     "Frameworks & Libraries": [
-      "React", "React Native", "Spring Boot", "Tailwind CSS", "Node.js", "Vite", "Thymeleaf", "Express.js", "jQuery"
+      "React", "React Native", "Expo", "React Navigation", "Spring Boot", "Tailwind CSS", "Node.js", "Vite", "Thymeleaf", "Express.js", "jQuery", "Deep Linking (Mobile)"
     ],
     "Tools & Platforms": [
-      "Git", "GitHub", "VS Code", "Postman", "Figma", "Vercel", "Netlify", "Replit", "StackBlitz", "Docker Desktop"
+      "Git", "GitHub", "VS Code", "Postman", "Figma", "Vercel", "Netlify", "Replit", "StackBlitz", "Docker Desktop", "Supabase Auth", "Supabase Storage", "Supabase Realtime", "Push Notifications / In-App Notifications", "EAS Build & Release", "App Store / TestFlight Release Workflow"
     ],
     "Cloud & DevOps": [
-      "AWS", "Azure", "Linux", "CI/CD", "Docker", "GitHub Actions", "Railway", "Render", "S3", "CodeCommit", "EC2"
+      "AWS", "Azure", "Linux", "CI/CD", "Docker", "GitHub Actions", "Railway", "Render", "S3", "CodeCommit", "EC2", "OAuth 2.0 (Twitch Integration)", "Third-Party API Integration (Twitch / RAWG)", "Mobile CI/CD (GitHub Actions)", "E2E Testing (Maestro)"
     ],
     "Databases": [
-      "MySQL", "SQL Server", "MongoDB", "PostgreSQL", "SQL Developer"
+      "MySQL", "SQL Server", "MongoDB", "PostgreSQL", "SQL Developer", "PostgreSQL Functions (SQL / PL/pgSQL)", "Postgres Triggers", "Row Level Security (RLS)", "Database Policies & Security"
     ],
     "Deployment & Hosting": [
   "Railway",
@@ -25,7 +25,7 @@ function Skills() {
   "Azure Static Web Apps"
 ],
     "Concepts": [
-      "OOP", "MVC", "REST APIs", "Agile/SCRUM", "Unit Testing", "TDD", "Accessibility", "Responsive Design", "WebSockets", "JWT Auth"
+      "OOP", "MVC", "REST APIs", "Agile/SCRUM", "Unit Testing", "TDD", "Accessibility", "Responsive Design", "WebSockets", "JWT Auth", "Realtime Presence / Live Counts", "Feature Flags (Backend-driven)", "Rate Limiting / Anti-Spam Patterns", "Content Moderation (Profile Images)"
     ],
     "Soft Skills": [
       "Technical Writing", "Team Collaboration", "Problem Solving", "Mentoring", "Time Management", "Communication"
