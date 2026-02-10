@@ -8,7 +8,7 @@ const projects = [
     description: 'Cross-platform LFG app that helps gamers discover sessions, match with teammates, and coordinate fast with real-time presence.',
     live: 'https://clutch-app.co',
     playStore: 'https://play.google.com/store/apps/details?id=com.erniec1.ClutchApp&hl=en_US',
-    appStore: 'https://apps.apple.com/app/idXXXXXXXXXX',
+    appStore: 'https://apps.apple.com/us/app/clutch-team-up-lfg-play/id6756883623',
     tags: ['React Native', 'Expo', 'Supabase', 'PostgreSQL', 'Realtime (WebSockets)', 'Push Notifications'],
   },
   {

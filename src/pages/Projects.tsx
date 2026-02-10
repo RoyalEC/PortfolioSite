@@ -68,6 +68,15 @@ function Projects() {
         View On Google Play
       </button>
     </a>
+    <a
+      href="https://apps.apple.com/us/app/clutch-team-up-lfg-play/id6756883623"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <button className="bg-black text-white px-4 py-2 rounded w-full sm:w-auto">
+        View on App Store
+      </button>
+    </a>
   </div>
 </div>
 
