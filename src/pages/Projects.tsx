@@ -114,31 +114,6 @@ function Projects() {
   </div>
 </div>
 
-
-
-          {/* Project Cards will go here */}
-          <div className="bg-gray-100 p-4 rounded shadow">
-  <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">Shonen Showdown</h2>
-  <p className="text-sm text-gray-700 mb-2">
-    A 2D fighting game that brings together iconic heroes and villains from the Shonen anime universe. Features fluid animations, unique character abilities, and strategic combat. Built with a love for anime and classic fighting mechanics.
-  </p>
-  <div className="flex gap-2 text-sm text-white flex-wrap">
-    <span className="bg-purple-600 px-2 py-1 rounded">Game Dev</span>
-    <span className="bg-pink-600 px-2 py-1 rounded">2D Graphics</span>
-    <span className="bg-blue-700 px-2 py-1 rounded">Fighting Engine</span>
-    <span className="bg-red-600 px-2 py-1 rounded">Anime-Inspired</span>
-  </div>
-  <div className="mt-4">
-    <a
-      href="https://replit.com/@crewsernie8/ShonenShowdown?v=1#.replit"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <button className="bg-blue-600 text-white px-4 py-2 rounded">View Project</button>
-    </a>
-  </div>
-</div>
-
           {/* Project Cards will go here */}
        <div className="bg-gray-100 p-4 rounded shadow">
   <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">Labyrinth Sprint</h2>
@@ -176,9 +151,6 @@ function Projects() {
     <span className="bg-indigo-500 px-2 py-1 rounded">Data Parsing</span>
   </div>
   <div className="mt-4">
-    <a href="https://github.com/RoyalEC/Scripting" target="_blank" rel="noreferrer">
-      <button className="bg-blue-600 text-white px-4 py-2 rounded w-full sm:w-auto">View Source Code</button>
-    </a>
     <a href="https://scripting-production.up.railway.app/" target="_blank" rel="noreferrer">
       <button className="bg-green-600 text-white px-4 py-2 rounded w-full sm:w-auto">View Live App</button>
     </a>
@@ -188,7 +160,7 @@ function Projects() {
 
           {/* Project Cards will go here */}
           <div className="bg-gray-100 p-4 rounded shadow">
-  <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">D682 AI Optimization Project</h2>
+  <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">AI Optimization Project</h2>
   <p className="text-sm text-gray-700 mb-2">
     A machine learning project that applies optimization algorithms to model performance improvements in an AI/ML environment. Built using Python, NumPy, and a reinforcement learning approach.
   </p>
@@ -199,16 +171,13 @@ function Projects() {
     <span className="bg-pink-600 px-2 py-1 rounded">DQN</span>
   </div>
   <div className="mt-4">
-    <a href="https://github.com/RoyalEC/OptimizeAI" target="_blank" rel="noreferrer">
-      <button className="bg-blue-600 text-white px-4 py-2 rounded w-full sm:w-auto">View Source Code</button>
-    </a>
     <a href="https://web-production-e7c3f.up.railway.app/" target="_blank" rel="noreferrer">
       <button className="bg-green-600 text-white px-4 py-2 rounded w-full sm:w-auto">View Live App</button>
     </a>
   </div>
 </div>
 <div className="bg-gray-100 p-4 rounded shadow">
-  <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">D683 Advanced AI & ML Project</h2>
+  <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">Advanced AI & ML Project</h2>
   <p className="text-sm text-gray-700 mb-2">
     An advanced AI/ML pipeline using time series forecasting for energy commodity trading. Built with Python and Pandas, the model integrates rolling predictions, feature engineering, and trading signal evaluation for crude oil (USOIL).
   </p>
@@ -220,9 +189,6 @@ function Projects() {
     <span className="bg-gray-700 px-2 py-1 rounded">USOIL</span>
   </div>
   <div className="mt-4">
-    <a href="https://github.com/RoyalEC/AdvancedAI-ML" target="_blank" rel="noreferrer">
-      <button className="bg-blue-600 text-white px-4 py-2 rounded w-full sm:w-auto">View Source Code</button>
-    </a>
     <a href="https://advancedai-ml-production.up.railway.app/" target="_blank" rel="noreferrer">
       <button className="bg-green-600 text-white px-4 py-2 rounded w-full sm:w-auto">View Live Endpoints</button>
     </a>
@@ -230,31 +196,7 @@ function Projects() {
 </div>
 {/* Project Cards will go here */}
 <div className="bg-gray-100 p-4 rounded shadow">
-  <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">Juice WRLD Web Tribute</h2>
-  <p className="text-sm text-gray-700 mb-2">
-    A fan-made web tribute to Juice WRLD featuring music previews, biography sections, and stylized visual elements. Built with HTML, CSS, and JavaScript as a responsive static site.
-  </p>
-  <div className="flex gap-2 text-sm text-white flex-wrap">
-    <span className="bg-pink-600 px-2 py-1 rounded">HTML</span>
-    <span className="bg-blue-500 px-2 py-1 rounded">CSS</span>
-    <span className="bg-yellow-500 px-2 py-1 rounded">JavaScript</span>
-    <span className="bg-indigo-600 px-2 py-1 rounded">Web Design</span>
-  </div>
-  <div className="mt-4">
-    <a
-      href="https://drive.google.com/file/d/1bm3jmoDRF5pIKaF1C63Rg5-32B-Q_KbJ/view?usp=drive_link"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <button className="bg-blue-600 text-white px-4 py-2 rounded">
-        View Source Code
-      </button>
-    </a>
-  </div>
-</div>
-{/* Project Cards will go here */}
-<div className="bg-gray-100 p-4 rounded shadow">
-  <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">D287 Java Frameworks Project</h2>
+  <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">Java Frameworks Project</h2>
   <p className="text-sm text-gray-700 mb-2">
     A full-stack web application built using Spring Boot, Hibernate, and Thymeleaf. This project demonstrates CRUD functionality, RESTful endpoints, and integration with a relational database for managing client records.
   </p>
@@ -266,9 +208,6 @@ function Projects() {
     <span className="bg-gray-700 px-2 py-1 rounded">CRUD</span>
   </div>
   <div className="mt-4">
-    <a href="https://github.com/RoyalEC/JavaFramework" target="_blank" rel="noreferrer">
-      <button className="bg-blue-600 text-white px-4 py-2 rounded w-full sm:w-auto">View Source Code</button>
-    </a>
     <a href="https://javaframework-production.up.railway.app/mainscreen" target="_blank" rel="noreferrer">
       <button className="bg-green-600 text-white px-4 py-2 rounded w-full sm:w-auto">View Live App</button>
     </a>
@@ -276,7 +215,7 @@ function Projects() {
 </div>
 {/* Project Cards will go here */}
 <div className="bg-gray-100 p-4 rounded shadow">
-  <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">D387 Advanced Java Project</h2>
+  <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">Advanced Java Project</h2>
   <p className="text-sm text-gray-700 mb-2">
     A Java application that leverages advanced object-oriented principles to manage records and scheduling within a multi-tier architecture. Implements robust exception handling, interface-based design, and layered separation of concerns.
   </p>
@@ -288,38 +227,12 @@ function Projects() {
     <span className="bg-green-600 px-2 py-1 rounded">Design Patterns</span>
   </div>
   <div className="mt-4">
-    <a href="https://github.com/RoyalEC/JavaWebsite" target="_blank" rel="noreferrer">
-      <button className="bg-blue-600 text-white px-4 py-2 rounded w-full sm:w-auto">View Source Code</button>
-    </a>
     <a href="https://javawebsite-production.up.railway.app/" target="_blank" rel="noreferrer">
       <button className="bg-green-600 text-white px-4 py-2 rounded w-full sm:w-auto">View Live Endpoints</button>
     </a>
   </div>
 </div>
 
-<div className="bg-gray-100 p-4 rounded shadow">
-  <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">Practice Project</h2>
-  <p className="text-sm text-gray-700 mb-2">
-    A sandbox-style practice project used for testing concepts and prototyping ideas across languages and tools. Useful for experimentation, quick learning, and technique validation.
-  </p>
-  <div className="flex gap-2 text-sm text-white flex-wrap">
-    <span className="bg-gray-600 px-2 py-1 rounded">JavaScript</span>
-    <span className="bg-blue-500 px-2 py-1 rounded">HTML</span>
-    <span className="bg-green-500 px-2 py-1 rounded">Learning</span>
-    <span className="bg-indigo-500 px-2 py-1 rounded">Practice</span>
-  </div>
-  <div className="mt-4">
-    <a
-      href="https://replit.com/@crewsernie8/EnhancedNumberGuessingGame"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <button className="bg-blue-600 text-white px-4 py-2 rounded">
-        View Source Code
-      </button>
-    </a>
-  </div>
-</div>
 <div className="bg-gray-100 p-4 rounded shadow">
   <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-900">Small Business Website</h2>
   <p className="text-sm text-gray-700 mb-2">

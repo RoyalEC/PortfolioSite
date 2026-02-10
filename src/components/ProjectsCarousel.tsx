@@ -21,14 +21,12 @@ const projects = [
   {
     title: 'WGUPS Routing Program',
     description: 'Optimized package delivery routes using a greedy algorithm.',
-    link: 'https://github.com/RoyalEC/RoutingApp',
     live: 'https://routingapp-production.up.railway.app/',
     tags: ['Python', 'Algorithms'],
   },
   {
-    title: 'D683 Advanced AI & ML',
+    title: 'Advanced AI & ML',
     description: 'Time series forecasting pipeline for USOIL trading.',
-    link: 'https://github.com/RoyalEC/AdvancedAI-ML',
     live: 'https://advancedai-ml-production.up.railway.app/',
     tags: ['Python', 'Forecasting', 'Machine Learning'],
   }
